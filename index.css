@@ -145,6 +145,15 @@ font-size: 48px;
     font-size: 20px;
 }
 
+.social__links--container {
+    max-width: 100%;
+    padding-top: 2vh;
+}
+
+.socials-icon {
+    padding: 6px;
+}
+
 .con__schedule--container {
 display: grid;
 grid-template-columns: 30% 30% 30%;
