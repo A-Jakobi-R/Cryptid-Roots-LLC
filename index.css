@@ -85,7 +85,10 @@ p {
 }
 
 .about-me__info--container {
-    max-width: 50%;
+    display: grid;
+    grid-template-columns: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-me__info {
@@ -151,7 +154,14 @@ font-size: 48px;
 }
 
 .socials-icon {
-    padding: 6px;
+   padding-right: 8px;
+}
+
+.fa-instagram ,
+.fa-etsy ,
+.fa-tiktok ,
+.fa-youtube {
+    scale: 120%;
 }
 
 .con__schedule--container {
